@@ -4,12 +4,8 @@
     (https://github.com/KZen-networks/curv)
     License MIT: <https://github.com/KZen-networks/curv/blob/master/LICENSE>
 */
-pub mod elliptic;
-
 pub mod arithmetic;
 pub use crate::arithmetic::BigInt;
-
-pub mod cryptographic_primitives;
 
 mod marker;
 pub use marker::HashChoice;
